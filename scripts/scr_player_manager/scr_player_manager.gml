@@ -5,7 +5,7 @@ function pickupItem(player){
 	if (interactInput() && !isInventoryFull()){
 		var xCheck = player.x + lengthdir_x(50, player.image_angle)
 		var yCheck = player.y + lengthdir_y(50, player.image_angle)
-		var possibleItem = instance_position(xCheck, yCheck, obj_item_parent)
+		var possibleItem = instance_position(xCheck, yCheck, obj_carryable_item_parent)
 		
 		//check in front of player, if an item exists return that item
 		//if carryable, add item to inventory and destroy instance

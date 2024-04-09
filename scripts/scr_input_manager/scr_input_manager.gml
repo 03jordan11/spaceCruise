@@ -25,6 +25,11 @@ function interactInput(){
 	controller = gamepad_button_check(0, gp_face1)
 	return keyboard || controller
 }
+function equipInput(){
+	keyboard = keyboard_check_released(ord("E"))
+	controller = gamepad_button_check(0, gp_face1)
+	return keyboard || controller
+}
 function pauseInput(){
 	keyboard = keyboard_check_pressed(vk_escape)
 	controller = gamepad_button_check_released(0, gp_start)

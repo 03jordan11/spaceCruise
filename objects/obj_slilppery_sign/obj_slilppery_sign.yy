@@ -12,8 +12,8 @@
     "path":"folders/Objects/Items/Janitor.yy",
   },
   "parentObjectId":{
-    "name":"obj_item_parent",
-    "path":"objects/obj_item_parent/obj_item_parent.yy",
+    "name":"obj_carryable_item_parent",
+    "path":"objects/obj_carryable_item_parent/obj_carryable_item_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
